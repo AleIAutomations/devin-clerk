@@ -4,22 +4,39 @@ export type Feature = {
 };
 
 export const appConfig = {
-  name: "Your App",
-  description: "Describe your app in one sentence. Devin will fill this in.",
-  emoji: "🚀",
-  accent: "#7c3aed",
+  name: "GymFollow",
+  description: "Um aplicativo de auxílio e desenvolvimento de treino.",
+  emoji: "🏋️",
+  accent: "#ea580c",
   upcomingFeatures: [
     {
-      title: "Your first feature",
-      description: "What people will be able to do once it's built.",
+      title: "Montar rotina de treino",
+      description:
+        "Crie divisões ABC com exercícios, séries e repetições para cada dia.",
     },
     {
-      title: "Your second feature",
-      description: "Devin will write this list based on your app idea.",
+      title: "Registrar séries e cargas",
+      description:
+        "Anote o peso e as repetições de cada série durante o treino.",
     },
     {
-      title: "Your third feature",
-      description: "Each one is a good next prompt for Devin.",
+      title: "Histórico por exercício",
+      description:
+        "Veja a última carga usada e a progressão de cada exercício.",
+    },
+    {
+      title: "Sequência de treinos",
+      description:
+        "Acompanhe os dias seguidos treinando para manter a constância.",
+    },
+    {
+      title: "Biblioteca de exercícios",
+      description: "Consulte exercícios organizados por grupo muscular.",
+    },
+    {
+      title: "Gerador de treino ABC",
+      description:
+        "Gere uma rotina inicial de acordo com seu nível e objetivo.",
     },
   ] satisfies Feature[],
 };
